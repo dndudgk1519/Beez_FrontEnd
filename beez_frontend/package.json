@@ -1,0 +1,68 @@
+{
+  "name": "test2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "axios": "^0.21.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "ethers": "^5.4.7",
+    "url-search-params-polyfill": "^8.1.1",
+    "v-calendar": "^2.3.4",
+    "v-pull-to-refresh": "^1.0.3",
+    "v-toaster": "^1.0.3",
+    "vue": "^2.6.11",
+    "vue-datepicker-ui": "^2.2.0",
+    "vue-numeric-keypad": "^1.1.2",
+    "vue-qrcode-reader": "^3.0.3",
+    "vue-qriously": "^1.1.1",
+    "vue-router": "^3.2.0",
+    "vue-spinner": "^1.0.4",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "starter"
+  ]
+}
